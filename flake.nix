@@ -16,6 +16,7 @@
           ./programming-languages.nix
           ./desktop-applications.nix
           ./fonts.nix
+          ./tools.nix
 
         ];
       };

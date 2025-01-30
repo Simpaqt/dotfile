@@ -10,12 +10,13 @@
     ripgrep
     luarocks
     yazi
+    grimblast
     zoxide
     fd
     fzf
     gcc
     swww
-    weget
+    wget
     wl-clipboard
     imagemagick
 
