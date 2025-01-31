@@ -20,5 +20,6 @@
     wl-clipboard
     eza
     imagemagick
+    ngrok
   ];
 }

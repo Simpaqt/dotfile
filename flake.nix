@@ -18,6 +18,7 @@
           ./fonts.nix
           ./tools.nix
           ./gaming.nix
+          ./minecraft.nix
 
         ];
       };

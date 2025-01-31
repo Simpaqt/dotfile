@@ -1,22 +1,13 @@
 { pkgs, lib, ... }:
 
 {
-  networking.firewall = {
-    enable = true;
-    networking.firewall.allowedTCPPorts = [
-      443
-      80
-      25565
-    ];
-
-  };
   services.minecraft-server = {
     enable = true;
     eula = true;
     declarative = true;
 
     package = pkgs.minecraft-server;
-    dataDir = "/Storage/";
+    dataDir = "/Storage/minecraft";
 
     serverProperties = {
       gamemode = "survival";
@@ -28,5 +19,10 @@
     whitelist = { };
 
     jvmOpts = "-Xms4092M -Xmx4092M -XX:+UseG1GC";
+  };
+  networking.firewall = {
+    enable = true;
+    allowedTCPPorts = [ 25565 ]; # Minecraft server port
+    allowedUDPPorts = [ 25565 ]; # Optional, if your server uses UDP
   };
 }
