@@ -85,11 +85,12 @@
     ];
   };
 
+  services.flatpak.enable = true;
+
   # Install firefox.
   programs.firefox.enable = true;
   programs.hyprland.enable = true;
   programs.fish.enable = true;
-  programs.steam.enable = true;
 
   users.defaultUserShell = pkgs.fish;
 
@@ -104,19 +105,14 @@
     #  wget
     neovim
     kitty
-    gamemode
-    flatpak
     github-cli
     bottles
     git
-    lutris
     protonup-qt
     lazygit
     podman
     wofi
     starship
-    wine
-    protonup-qt
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

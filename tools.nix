@@ -18,7 +18,7 @@
     swww
     wget
     wl-clipboard
+    eza
     imagemagick
-
   ];
 }

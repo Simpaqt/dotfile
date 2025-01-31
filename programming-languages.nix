@@ -6,5 +6,6 @@
     deno
     zig
     tailwindcss
+    godot_4
   ];
 }
