@@ -17,6 +17,7 @@
           ./desktop-applications.nix
           ./fonts.nix
           ./tools.nix
+          ./gaming.nix
 
         ];
       };
