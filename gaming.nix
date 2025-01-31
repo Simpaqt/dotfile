@@ -1,7 +1,5 @@
-{ pkgs, ... }:
+{ pkgs, lib, ... }:
 {
-
-  programs.steam.enable = true;
 
   environment.systemPackages = with pkgs; [
     lutris
@@ -9,6 +7,7 @@
     bottles
     wine
     protonup-qt
+    prismlauncher
     bottles
 
   ];
