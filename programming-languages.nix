@@ -7,5 +7,6 @@
     zig
     tailwindcss
     godot_4
+    codeium
   ];
 }
