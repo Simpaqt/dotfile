@@ -8,7 +8,6 @@
     spotify
     obs-studio
     google-chrome
-
   ];
 }
 
