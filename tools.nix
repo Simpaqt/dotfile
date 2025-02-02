@@ -11,6 +11,9 @@
     luarocks
     yazi
     grimblast
+    swappy
+    hyprshade
+    hyprpicker
     zoxide
     fd
     fzf
