@@ -8,6 +8,7 @@
     bottles
     wine
     protonup-qt
+    wowup-cf
     prismlauncher
   ];
 }
