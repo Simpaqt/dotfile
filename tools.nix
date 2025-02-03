@@ -23,6 +23,7 @@
     wl-clipboard
     eza
     imagemagick
+    onefetch
     ngrok
   ];
 }
