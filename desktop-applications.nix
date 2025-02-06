@@ -8,6 +8,8 @@
     spotify
     obs-studio
     google-chrome
+    freetube
+    mpv
   ];
 }
 

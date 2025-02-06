@@ -1,6 +1,8 @@
 { pkgs, ... }:
 
 {
+  virtualisation.docker.enable = true;
+  users.users.simpa.extraGroups = [ "docker" ];
   environment.systemPackages = with pkgs; [
     bat
     btop
@@ -12,10 +14,12 @@
     yazi
     grimblast
     swappy
+    postgresql
     hyprshade
     hyprpicker
     zoxide
     fd
+    docker-compose
     fzf
     gcc
     swww
