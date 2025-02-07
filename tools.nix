@@ -6,6 +6,7 @@
   environment.systemPackages = with pkgs; [
     bat
     btop
+    gh-dash
     unzip
     grim
     fastfetch
