@@ -10,6 +10,7 @@
     google-chrome
     freetube
     mpv
+    protonmail-bridge
   ];
 }
 
