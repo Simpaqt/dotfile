@@ -27,7 +27,6 @@
 
   environment.variables.EDITOR = "nvim";
 
-  nix.nixPath = [ "nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixos/nixpkgs:nixos-config=/home/simpa/.nixos/configuration.nix" ];
 
   # Enable networking
   networking.networkmanager.enable = true;
@@ -97,6 +96,8 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  nix.gc.automatic = true;
+
   hardware.graphics = {
     enable = true;
     enable32Bit = true;
@@ -111,16 +112,6 @@
   environment.systemPackages = with pkgs; [
     #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     #  wget
-    neovim
-    kitty
-    github-cli
-    bottles
-    git
-    protonup-qt
-    lazygit
-    podman
-    wofi
-    starship
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

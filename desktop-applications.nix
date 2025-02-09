@@ -7,10 +7,10 @@
     vesktop
     spotify
     obs-studio
+    protonmail-desktop
     google-chrome
     freetube
     mpv
-    protonmail-bridge
   ];
 }
 

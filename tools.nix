@@ -7,7 +7,17 @@
     bat
     btop
     gh-dash
+    git
+    protonup-qt
     unzip
+    kitty
+    github-cli
+    lazygit
+    podman
+    starship
+    wofi
+    epy
+    neovim
     grim
     fastfetch
     ripgrep
