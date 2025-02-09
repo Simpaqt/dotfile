@@ -9,5 +9,6 @@
     protonup-qt
     wowup-cf
     prismlauncher
+    smassh
   ];
 }
