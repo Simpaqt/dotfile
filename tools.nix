@@ -12,6 +12,7 @@
     unzip
     kitty
     github-cli
+    fh
     lazygit
     podman
     starship
