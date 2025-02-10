@@ -102,7 +102,8 @@
     options = "--delete-older-than 7d";
   };
 
-
+  hardware.keyboard.zsa.enable = true;
+  
   hardware.graphics = {
     enable = true;
     enable32Bit = true;
